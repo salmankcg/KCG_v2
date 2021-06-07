@@ -1,0 +1,44 @@
+.kcgonpage-scroll-menu{
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 999;
+}
+
+
+/*pagination button*/
+.kcgone-scroll-control{
+    position: fixed;
+    bottom: 30px;
+    z-index: 999;
+
+    color: #fff;
+    opacity: 0.8;
+
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    color: #777777;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s linear;
+}
+
+.kcgone-scroll-control.kcg-prev{
+    right: 110px;
+    
+}
+.kcgone-scroll-control.kcg-next{
+    right: 30px;
+    
+}
+.kcgone-scroll-control.kcg-next::before{
+    content: "";
+    width: 1px;
+    height: 12px;
+    background: #777;
+    display: inline-block;
+    left: -25px;
+    position: absolute;
+}

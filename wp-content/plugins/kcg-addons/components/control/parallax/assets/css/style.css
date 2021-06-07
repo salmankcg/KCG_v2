@@ -1,0 +1,21 @@
+.kcg-section-parallax-layer {
+    position: absolute;
+    pointer-events: none;
+}
+.kcg-section-parallax-layer .kcg-parallax-graphic {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    max-width: initial !important;
+}
+
+.kcg-invisible {
+    visibility: hidden;
+}
+.parallax-multi-section {
+    transition: none !important;
+}
+.kcg-section-parallax-type-tilt {
+    pointer-events: auto !important;
+    z-index: 99999;
+}

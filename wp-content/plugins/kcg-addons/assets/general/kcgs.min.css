@@ -1,0 +1,28 @@
+input:hover,
+input:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 0px 0px transparent !important;
+}
+
+:focus {
+  outline: -webkit-focus-ring-color auto 0;
+}
+
+.kcg-addons img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.kcg-addons svg,
+.kcg-addons i {
+  width: 1em;
+  height: 1em;
+  position: relative;
+  display: block;
+}
+
+.kcg-addons svg {
+  fill: currentColor;
+}
